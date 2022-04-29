@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingActivity">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/setting"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dark_mode"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="5dp"
+        app:drawableStartCompat="@drawable/ic_baseline_dark_mode_24"
+        app:layout_constraintStart_toStartOf="@+id/text_title"
+        app:layout_constraintTop_toBottomOf="@+id/text_title" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_mode"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/dark_mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dark_mode" />
+
+    <TextView
+        android:id="@+id/change_language"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_height="wrap_content"
+        android:text="@string/change_language_settings"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="5dp"
+        app:drawableStartCompat="@drawable/ic_baseline_language_24"
+        app:layout_constraintStart_toStartOf="@+id/dark_mode"
+        app:layout_constraintTop_toBottomOf="@+id/dark_mode" />
+</androidx.constraintlayout.widget.ConstraintLayout>

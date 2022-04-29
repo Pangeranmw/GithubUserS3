@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Github User</string>
+
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="repository">Repositories</string>
+    <string name="company">Company</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="number">10</string>
+    <string name="dot">·</string>
+    <string name="splash">GITHUB\nUSER</string>
+    <string name="github_alpha_image">github alpha image</string>
+    <string name="icon_users">icon users</string>
+    <string name="icon_location">icon location</string>
+    <string name="icon_building">icon building</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="search">search</string>
+    <string name="find">Find Username</string>
+    <string name="refresh">Refresh</string>
+    <string name="profile">Profile</string>
+    <string name="username_not_found" >Username Not Found</string>
+    <string name="no_followers">No Followers</string>
+    <string name="no_following">No Following</string>
+    <string name="setting">Setting</string>
+    <string name="icon_dark_mode">Icon dark mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="action">Favourite Button</string>
+    <string name="favorite">Favourite</string>
+    <string name="succes_add">Successfully Add to Favourite</string>
+    <string name="success_delete">Successfully Remove from Favourite</string>
+    <string name="no_favorit">No Favourite Account</string>
+
+
+</resources>

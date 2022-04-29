@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pengguna Github</string>
+
+    <string name="username">Nama Pengguna</string>
+    <string name="name">Nama</string>
+    <string name="location">Lokasi</string>
+    <string name="repository">Repositori</string>
+    <string name="company">Perusahaan</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="number">10</string>
+    <string name="dot">·</string>
+    <string name="splash">PENGGUNA \nGITHUB</string>
+    <string name="github_alpha_image">Gambar Github Transparan</string>
+    <string name="icon_users">Ikon Pengguna</string>
+    <string name="icon_location">Ikon Lokasi</string>
+    <string name="icon_building">Ikon Bangunan</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="find">Cari Nama Pengguna</string>
+    <string name="search">Cari</string>
+    <string name="refresh">Muat Ulang</string>
+    <string name="profile">Profil</string>
+    <string name="succes_add">Berhasil Ditambahkan ke Favorit</string>
+    <string name="success_delete">Berhasil Dihapus dari Favorit</string>
+    <string name="setting">Pengaturan</string>
+    <string name="icon_dark_mode">Ikon Mode Gelap</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="action">Tombol Favorit</string>
+    <string name="favorite">Favorit</string>
+    <string name="username_not_found" >Nama Pengguna Tidak Ditemukan</string>
+    <string name="no_followers">Tidak Mengikuti Siapapun</string>
+    <string name="no_following">Tidak ada Pengikut</string>
+    <string name="no_favorit">Tidak Ada Akun Favorit</string>
+</resources>
